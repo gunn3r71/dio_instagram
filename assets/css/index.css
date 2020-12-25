@@ -1,0 +1,115 @@
+* { /*Zera todos os atributos na página*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    /*Definindo propriedades na body*/
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    /*Linhas responsáveis por deixar tudo centralizado*/
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex; /*O objeto vira um flex container ocupando o espaço que ele precisa, alinha items inline*/
+    align-items: center; /*Define alinhamento vertical*/
+    justify-content: start; /*Define alinhamento horizontal(Inline) start inicia da esquerda para direita*/
+    width: 60%;
+    height: 100vh;
+
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 60vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-position-x: left;
+    background-position-y: right;
+}
+
+.instagram-phone img {
+    height: 40rem;
+}
+
+.instagram-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column; 
+    width: 60%;
+    height: 34rem;
+}
+
+.container-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    border: 1px solid rgb(228, 224, 224);
+    padding: 10%;
+    margin-left: -20%;
+}
+
+.container-login .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.profile-photo img{
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+}
+
+.instagram-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    padding: 3%;
+    border-radius: 2%;
+    background-color: rgb(70, 143, 252);
+    font-weight: bold;
+    color: white;
+}
+
+.not-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(80, 79, 79);
+    padding-top: 13%;
+    font-size: 12px;
+}
+
+.not-account a{
+    color:rgb(70, 143, 252);
+    font-weight: bold;
+}
